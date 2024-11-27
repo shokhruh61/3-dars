@@ -1,0 +1,50 @@
+.main {
+  position: relative;
+  background-color: white;
+  width: 690px;
+  display: flex;
+  margin: 15px 0px;
+  justify-content: space-between;
+  height: 950px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.imgHeart {
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 640px;
+  position: absolute;
+}
+.main .cinoImg {
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.main h3 {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.main .title {
+  line-height: 25px;
+  color: rgba(90, 87, 87, 0.591);
+  margin: 10px 10px;
+}
+.cards {
+  position: relative;
+  width: 100%;
+}
+
+.year {
+  margin-left: 10px;
+}
+.desc {
+  margin: 5px 10px 20px 10px;
+}
+.information {
+  justify-content: space-between;
+  display: flex;
+  gap: 30px;
+}
